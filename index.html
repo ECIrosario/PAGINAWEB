@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudio Contable Impositivo AR | Contadores en Rosario – PyMEs y Monotributistas</title>
+<meta name="description" content="Estudio contable en Rosario. Asesoramiento impositivo y contable para PyMEs y monotributistas: AFIP, ARBA, sueldos, balances y más. Atención personalizada por WhatsApp.">
+<meta property="og:title" content="Estudio Contable Impositivo AR – Rosario">
+<meta property="og:description" content="Contabilidad e impuestos claros para tu PyME o monotributo. Asesoramiento personalizado en Rosario y todo el país.">
+<meta property="og:type" content="website">
+<link rel="icon" href="logo_estudio_contable.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"AccountingService",
+  "name":"Estudio Contable Impositivo AR",
+  "areaServed":{"@type":"City","name":"Rosario, Santa Fe, Argentina"},
+  "telephone":"+5493413843090",
+  "email":"estudiocontableimpositivoar@outlook.com",
+  "sameAs":["https://instagram.com/estudiocontableimpositivoar"]
+}
+</script>
+
+<style>
+:root{
+  --azul:#00B0F0; --azul-osc:#0086C0; --gris:#595959; --gris-claro:#BFBFBF;
+  --bg:#F6F9FB; --texto:#2B2D2F; --blanco:#fff;
+  --sombra:0 10px 30px rgba(0,0,0,.08); --radio:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--texto);background:var(--bg);line-height:1.6}
+img,svg{display:block}
+.container{width:min(1120px,92%);margin-inline:auto}
+section{padding:84px 0}
+h2{font-size:clamp(1.7rem,3.4vw,2.4rem);color:var(--gris);margin-bottom:12px}
+.sub{color:#666;max-width:640px;margin-bottom:44px}
+.kicker{color:var(--azul-osc);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;margin-bottom:10px}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid #e6ecf1}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--gris);text-decoration:none;font-size:1.02rem}
+.brand img{width:44px;height:44px}
+.menu{display:flex;gap:26px;list-style:none}
+.menu a{text-decoration:none;color:var(--texto);font-weight:500;font-size:.95rem}
+.menu a:hover{color:var(--azul-osc)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;transition:.2s;border:none;cursor:pointer;font-size:.95rem}
+.btn-wa{background:#25D366;color:#fff}.btn-wa:hover{filter:brightness(1.08)}
+.btn-azul{background:var(--azul);color:#fff}.btn-azul:hover{background:var(--azul-osc)}
+.btn-linea{border:2px solid var(--gris);color:var(--gris);background:transparent}.btn-linea:hover{background:var(--gris);color:#fff}
+.hamb{display:none;background:none;border:none;font-size:1.7rem;color:var(--gris);cursor:pointer}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,#eaf7fd 0%,#f6f9fb 60%);padding:96px 0 88px}
+.hero .container{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.15;color:var(--gris);font-weight:800}
+.hero h1 span{color:var(--azul)}
+.hero p{margin:20px 0 30px;color:#555;font-size:1.08rem;max-width:520px}
+.ctas{display:flex;gap:14px;flex-wrap:wrap}
+.badges{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px;color:#5a6a75;font-size:.9rem;font-weight:600}
+.badges span::before{content:"✔ ";color:var(--azul)}
+.hero-art{display:flex;justify-content:center}
+.hero-art img{width:min(340px,80%);filter:drop-shadow(0 18px 30px rgba(0,140,200,.18))}
+
+/* SERVICIOS */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.card{background:#fff;border-radius:var(--radio);padding:28px;box-shadow:var(--sombra);border-top:4px solid var(--azul);transition:.25s}
+.card:hover{transform:translateY(-5px)}
+.card .ico{font-size:1.7rem;margin-bottom:12px}
+.card h3{color:var(--gris);margin-bottom:8px;font-size:1.12rem}
+.card p{color:#666;font-size:.95rem}
+
+/* NOSOTROS */
+.about{background:var(--gris);color:#fff;border-radius:24px;padding:56px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about h2{color:#fff}.about .kicker{color:var(--azul)}
+.about p{color:#d9dcde;margin-bottom:14px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:20px;text-align:center}
+.stat b{font-size:1.5rem;color:var(--azul);display:block}
+.stat small{color:#cfd3d5}
+
+/* PROCESO */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;counter-reset:p}
+.step{background:#fff;border-radius:var(--radio);padding:26px;box-shadow:var(--sombra);position:relative}
+.step::before{counter-increment:p;content:counter(p);position:absolute;top:-16px;left:22px;width:36px;height:36px;border-radius:50%;background:var(--azul);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.step h3{margin:14px 0 6px;color:var(--gris);font-size:1.05rem}
+.step p{color:#666;font-size:.92rem}
+
+/* FAQ */
+.faq details{background:#fff;border-radius:12px;margin-bottom:12px;box-shadow:var(--sombra);overflow:hidden}
+.faq summary{cursor:pointer;padding:18px 22px;font-weight:600;color:var(--gris);list-style:none;display:flex;justify-content:space-between}
+.faq summary::after{content:"+";font-size:1.3rem;color:var(--azul)}
+.faq details[open] summary::after{content:"–"}
+.faq p{padding:0 22px 18px;color:#666;font-size:.95rem}
+
+/* CONTACTO */
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start}
+form{background:#fff;border-radius:var(--radio);padding:32px;box-shadow:var(--sombra)}
+label{font-weight:600;font-size:.88rem;color:var(--gris);display:block;margin:14px 0 6px}
+input,select,textarea{width:100%;padding:12px 14px;border:1.5px solid #dfe7ec;border-radius:10px;font:inherit;color:var(--texto);background:#fbfdfe}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--azul)}
+textarea{min-height:120px;resize:vertical}
+.hp{display:none}
+.msg{margin-top:14px;padding:12px;border-radius:10px;font-size:.92rem;display:none}
+.ok{background:#e7f9ee;color:#157a3a;display:block}
+.err{background:#fdeaea;color:#b3261e;display:block}
+.info{display:flex;flex-direction:column;gap:16px}
+.info-card{background:#fff;border-radius:var(--radio);padding:22px;box-shadow:var(--sombra);display:flex;gap:16px;align-items:center;text-decoration:none;color:var(--texto);transition:.2s}
+.info-card:hover{transform:translateX(6px)}
+.info-card .ico{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;color:#fff;flex-shrink:0}
+.wa{background:#25D366}.tg{background:#29A9EB}.ig{background:linear-gradient(45deg,#f09433,#dc2f7e,#8134af)}.ml{background:var(--gris)}.loc{background:var(--azul)}
+.info-card b{display:block;color:var(--gris)}
+.info-card small{color:#777}
+
+/* FOOTER + FLOAT */
+footer{background:var(--gris);color:#cfd3d5;padding:44px 0;font-size:.92rem}
+footer .container{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+footer a{color:#fff;text-decoration:none}
+.float-wa{position:fixed;right:22px;bottom:22px;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.8rem;text-decoration:none;box-shadow:0 8px 24px rgba(37,211,102,.45);z-index:60;animation:pulse 2.4s infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+
+@media(max-width:860px){
+  .hero .container,.about,.contact-grid{grid-template-columns:1fr}
+  .menu{position:fixed;inset:72px 0 auto 0;background:#fff;flex-direction:column;padding:22px;gap:18px;box-shadow:var(--sombra);transform:translateY(-130%);transition:.3s}
+  .menu.open{transform:none}
+  .hamb{display:block}
+  .nav .btn-wa{display:none}
+  section{padding:64px 0}
+  .about{padding:36px 24px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="#inicio">
+      <img src="logo_estudio_contable.svg" alt="Logo Estudio Contable Impositivo AR">
+      Estudio Contable <span style="color:var(--azul)">Impositivo&nbsp;AR</span>
+    </a>
+    <nav>
+      <ul class="menu" id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#proceso">Cómo trabajamos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-wa" href="https://wa.me/5493413843090" target="_blank">📱 WhatsApp</a>
+    <button class="hamb" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="container">
+    <div>
+      <p class="kicker">Estudio contable · Rosario, Santa Fe</p>
+      <h1>Contabilidad e impuestos <span>claros</span> para tu PyME o monotributo</h1>
+      <p>Te acompañamos en cada etapa: desde darte de alta en AFIP hasta el balance anual. Asesoramiento personalizado, sin letra chica y con la respuesta a tiempo.</p>
+      <div class="ctas">
+        <a class="btn btn-azul" href="#contacto">Pedí tu asesoramiento</a>
+        <a class="btn btn-linea" href="https://wa.me/5493413843090" target="_blank">Escribinos por WhatsApp</a>
+      </div>
+      <div class="badges"><span>Monotributo</span><span>PyMEs</span><span>AFIP · ARBA · Municipal</span><span>Atención online en todo el país</span></div>
+    </div>
+    <div class="hero-art">
+      <img src="logo_estudio_contable.svg" alt="Logo Estudio Contable Impositivo AR">
+    </div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="container">
+    <p class="kicker">Servicios</p>
+    <h2>Todo lo que tu emprendimiento necesita, en un solo lugar</h2>
+    <p class="sub">Trabajamos con empresas PyMEs y monotributistas de Rosario y de todo el país, con soluciones contables e impositivas a medida.</p>
+    <div class="grid">
+      <div class="card"><div class="ico">🧾</div><h3>Monotributo</h3><p>Alta, recategorización, declaraciones de jurisdicciones (ARBA, municipal), pagos mensuales y baja. Que pagues lo correcto, ni de más ni de menos.</p></div>
+      <div class="card"><div class="ico">🏢</div><h3>Contable para PyMEs</h3><p>Llevamiento de contabilidad, estados contables, balances y reportes periódicos para que sepas exactamente cómo está tu empresa.</p></div>
+      <div class="card"><div class="ico">📊</div><h3>Impuestos</h3><p>Vencimientos y presentaciones de IVA, Ganancias, Bienes Personales, IIBB, retenciones y percepciones. Control total de tus obligaciones en AFIP.</p></div>
+      <div class="card"><div class="ico">👥</div><h3>Sueldos y cargas sociales</h3><p>Liquidación de haberes, libros societarios, altas de empleados, ART y aportes sindicales. Tu equipo en regla, vos tranquilo.</p></div>
+      <div class="card"><div class="ico">💡</div><h3>Asesoramiento impositivo</h3><p>Planificación fiscal, régimen de facturación, exenciones, beneficios y respuesta a intimaciones o vistas de AFIP. Te acompañamos antes, durante y después.</p></div>
+      <div class="card"><div class="ico">🚀</div><h3>Alta y estructura societaria</h3><p>Te ayudamos a elegir la forma más conveniente: monotributo, RI, SRL, SA… y hacemos todos los trámites de constitución e inscripción.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros" style="padding-top:20px">
+  <div class="container">
+    <div class="about">
+      <div>
+        <p class="kicker">Nosotros</p>
+        <h2>El mejor asesoramiento posible, cliente por cliente</h2>
+        <p>Somos un estudio contable de Rosario que trabaja codo a codo con PyMEs y monotributistas. No creemos en la contabilidad "automática": cada negocio tiene su historia, y por eso cada asesoramiento se construye a medida.</p>
+        <p>Nos importa que entiendas tus números, que cumplas sin sobresaltos y que tomes decisiones con información clara. Estamos a un mensaje de distancia, por WhatsApp o Telegram.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>100%</b><small>asesoramiento personalizado</small></div>
+        <div class="stat"><b>PyMEs</b><small>y monotributistas</small></div>
+        <div class="stat"><b>Rosario</b><small>+ atención online</small></div>
+        <div class="stat"><b>0</b><small>letra chica</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proceso">
+  <div class="container">
+    <p class="kicker">Cómo trabajamos</p>
+    <h2>Simple desde el primer día</h2>
+    <p class="sub">En cuatro pasos pasás de tener dudas a tener tu contabilidad en orden.</p>
+    <div class="steps">
+      <div class="step"><h3>Charla inicial</h3><p>Nos contás tu situación: actividad, facturación, dudas. Sin compromiso.</p></div>
+      <div class="step"><h3>Diagnóstico y plan</h3><p>Evaluamos qué régimen te conviene y qué obligaciones tenés. Te lo explicamos en criollo.</p></div>
+      <div class="step"><h3>Manos a la obra</h3><p>Hacemos los trámites, presentaciones y vencimientos. Vos recibí los recordatorios.</p></div>
+      <div class="step"><h3>Acompañamiento continuo</h3><p>Seguimos cerca todo el año: consultas, cambios de categoría, reportes y novedades impositivas.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq" style="background:#eef4f8;border-radius:24px">
+  <div class="container">
+    <p class="kicker">Preguntas frecuentes</p>
+    <h2>Antes de escribirnos</h2>
+    <p class="sub">Las dudas más comunes de nuestros clientes.</p>
+    <details><summary>¿Atienden fuera de Rosario?</summary><p>Sí. Trabajamos 100% online con clientes de todo el país, y presencialmente en Rosario cuando hace falta.</p></details>
+    <details><summary>¿Me conviene monotributo o Responsable Inscripto?</summary><p>Depende de tu facturación, tus gastos y tus clientes. Lo analizamos juntos y te recomendamos el régimen más eficiente (y legal) para tu caso.</p></details>
+    <details><summary>¿Qué necesito para empezar?</summary><p>Tu CUIT (o DNI si todavía no lo tenés), clave fiscal y, si ya facturás, un resumen de tus ingresos. Con eso armamos el diagnóstico.</p></details>
+    <details><summary>¿Me avisan de los vencimientos?</summary><p>Sí. Recibís recordatorios por WhatsApp/mail para que nunca se te escape una presentación o un pago.</p></details>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="container">
+    <p class="kicker">Contacto</p>
+    <h2>Contanos tu caso y te respondemos rápido</h2>
+    <p class="sub">Completá el formulario o escribinos directo por WhatsApp / Telegram. La primera consulta es sin cargo.</p>
+    <div class="contact-grid">
+      <!-- ===== FORMULARIO ===== -->
+      <form id="form">
+        <input type="hidden" name="access_key" value="00ee53ad-220f-404b-9c15-03d436a8c8ff"> <!-- 👈 único paso pendiente: ver nota abajo -->
+        <input type="hidden" name="subject" value="Nuevo contacto desde la web – Estudio Contable Impositivo AR">
+        <input type="checkbox" name="bot-field" class="hp">
+        <label>Nombre y apellido *</label>
+        <input type="text" name="nombre" required placeholder="Ej: María González">
+        <label>Email *</label>
+        <input type="email" name="email" required placeholder="tucorreo@ejemplo.com">
+        <label>Teléfono / WhatsApp</label>
+        <input type="tel" name="telefono" placeholder="+54 9 341 ...">
+        <label>¿Qué tipo de cliente sos?</label>
+        <select name="tipo">
+          <option>Monotributista</option>
+          <option>PyME / Empresa</option>
+          <option>Emprendedor (aún no facturo)</option>
+          <option>Otro</option>
+        </select>
+        <label>Mensaje *</label>
+        <textarea name="mensaje" required placeholder="Contanos tu situación o tu consulta..."></textarea>
+        <button class="btn btn-azul" type="submit" style="margin-top:18px;width:100%;justify-content:center">Enviar consulta</button>
+        <div class="msg" id="res"></div>
+      </form>
+
+      <!-- ===== INFO ===== -->
+      <div class="info">
+        <a class="info-card" href="https://wa.me/5493413843090" target="_blank"><div class="ico wa">📱</div><div><b>WhatsApp</b><small>+54 9 341 384-3090 · respuesta rápida</small></div></a>
+        <a class="info-card" href="https://t.me/+5493413843090" target="_blank"><div class="ico tg">✈️</div><div><b>Telegram</b><small>+54 9 341 384-3090</small></div></a>
+        <a class="info-card" href="https://instagram.com/estudiocontableimpositivoar" target="_blank"><div class="ico ig">📸</div><div><b>Instagram</b><small>@estudiocontableimpositivoar</small></div></a>
+        <a class="info-card" href="mailto:estudiocontableimpositivoar@outlook.com"><div class="ico ml">✉️</div><div><b>Email</b><small>estudiocontableimpositivoar@outlook.com</small></div></a>
+        <div class="info-card"><div class="ico loc">📍</div><div><b>Rosario, Santa Fe</b><small>Lun a Vie · 9 a 18 h · Atención online en todo el país</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>© <span id="anio"></span> Estudio Contable Impositivo AR · Rosario, Argentina</div>
+    <div>
+      <a href="https://wa.me/5493413843090" target="_blank">WhatsApp</a> ·
+      <a href="https://instagram.com/estudiocontableimpositivoar" target="_blank">Instagram</a> ·
+      <a href="#contacto">Contacto</a>
+    </div>
+  </div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/5493413843090" target="_blank" aria-label="WhatsApp">💬</a>
+
+<script>
+document.getElementById('anio').textContent = new Date().getFullYear();
+document.querySelectorAll('#menu a').forEach(a=>a.onclick=()=>document.getElementById('menu').classList.remove('open'));
+
+document.getElementById('form').addEventListener('submit', async e=>{
+  e.preventDefault();
+  const f = e.target, res = document.getElementById('res'), btn = f.querySelector('button');
+  btn.disabled = true; btn.textContent = 'Enviando...';
+  try{
+    const r = await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});
+    const d = await r.json();
+    if(d.success){ f.reset(); res.className='msg ok'; res.textContent='¡Gracias! Recibimos tu consulta y te responderemos a la brevedad. 🎉'; }
+    else{ res.className='msg err'; res.textContent='Ocurrió un error. Escribinos por WhatsApp: +54 9 341 384-3090'; }
+  }catch(err){ res.className='msg err'; res.textContent='Error de conexión. Escribinos por WhatsApp: +54 9 341 384-3090'; }
+  btn.disabled=false; btn.textContent='Enviar consulta';
+});
+</script>
+</body>
+</html>
